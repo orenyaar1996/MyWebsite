@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device.width, initial-scale=1.0">
+    <script type="text/javascript" src="Index.js"></script>
+    <title>Oren Yaar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <h1 class="title-name"><a href="Index.html">Oren Yaar</a></h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="Contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <h2>Hello, I'm Oren.<br>
+                I am 27 years old, from Tel Aviv.<br>
+                2nd year Computer Science & Entrepreneurship<br>
+                student at Reichman University.
+            </h2>
+        </div>
+    </div>
+</div>
+
+<!-- --------about------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/linkdin.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 id="sub-title">About Me</h1>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="openTab('experience')">Experience</p>
+                    <p class="tab-links" onclick="openTab('military-service')">Military Service</p>
+                    <p class="tab-links" onclick="openTab('social-involvement')">Social Involvement</p>
+                </div>
+                <div class="tab-contents active-tab" id="experience">
+                    <ul>
+                        <li><span>2023-Present</span><br>Code Mentor - Microsoft QueenB</li>
+                        <li><span>Summer 2023</span><br>Program Instructor - Women Tech Project, Nitzanim Program</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="military-service">
+                    <ul>
+                        <li><span>2020-2022</span><br>
+                            Head of Navigation Department, Unit 669
+                        </li>
+                        <li><span>2018-2020</span><br>
+                            Commander of Flight and Special Ops Simulator, IAF
+                        </li>
+                        <li><span>2016-2018</span><br>
+                            Training Coordinator, Unit Shaldag
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="social-involvement">
+                    <ul>
+                        <li><span>2018-2020</span><br>
+                            Established and lead a soldier's Garin in Kibbutz Ein Hashlosha
+                        </li>
+                        <li><span>2014-2015</span><br>
+                            Volunteer Gap Year
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
